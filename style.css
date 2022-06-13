@@ -5,7 +5,7 @@
 }
 
 body {
-  background: yellow;
+  background: linear-gradient(rgb(156, 191, 202) 0%, rgb(134, 141, 143) 50%);
   margin: 60px auto;
   max-width: 90%;
 }
