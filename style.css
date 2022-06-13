@@ -5,6 +5,7 @@
 }
 
 body {
+  background: yellow;
   margin: 60px auto;
   max-width: 90%;
 }
@@ -99,4 +100,8 @@ p {
   border-radius: 15px;
   padding: 3px;
   box-shadow: black 2px 2px 5px;
+}
+#contact{
+  margin-top: 900px;
+  margin-bottom: 100px;
 }
