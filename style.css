@@ -5,7 +5,8 @@
 }
 
 body {
-  background: linear-gradient(rgb(156, 191, 202) 0%, rgb(134, 141, 143) 50%);
+  color: white;
+  background: linear-gradient(#0B5ED7 0%, rgb(32, 30, 30) 50%);
   margin: 60px auto;
   max-width: 90%;
 }
@@ -30,16 +31,23 @@ h3 {
   opacity: 0.7;
 }
 
-nav {
-  width: 100%;
-}
-
 p {
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+
+
+.header {
+  margin-top: 40px;
+  color: white;
+  padding: 0px 0px 50px 0px;
+  border-radius: 20px;
+  background-color: rgb(32, 30, 30);
+  box-shadow: var(--box-shadow);
 }
 
 .certificateHeading {
@@ -64,6 +72,12 @@ p {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  transition: 1000ms ease-in-out;
+}
+
+.resume:hover {
+  font-size: 64px;
+  color: white;
 }
 
 .navigation-links {
@@ -73,28 +87,34 @@ p {
 }
 
 .navigation-links a {
+  box-shadow: var(--box-shadow);
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(32, 30, 30);
   margin: 20px;
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  transition: 400ms ease-in-out;
 }
 
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+.navigation-links a:hover {
+  color: rgb(32, 30, 30);
+  background-color: white;
+  border: 2px solid rgb(32, 30, 30);
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  margin: 0 auto;
+  color: black;
   text-align: center;
   display: block;
+}
+
+.homepage-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .about-paragraphs {
@@ -112,6 +132,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  transition: 200ms ease-in-out;
 }
 
 .email-link:hover {
